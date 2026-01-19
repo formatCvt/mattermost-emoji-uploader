@@ -19,7 +19,7 @@ A command-line tool written in Go that automatically uploads emojis to Mattermos
 
 - Go 1.22.2 or higher
 - Mattermost server with API access
-- Personal Access Token with emoji upload permissions
+- Personal Access Token
 
 ## Installation
 
@@ -143,8 +143,9 @@ The tool will automatically sanitize emoji names to meet Mattermost requirements
 1. Log in to your Mattermost instance
 2. Go to **Account Settings** → **Security** → **Personal Access Tokens**
 3. Click **Create Token**
-4. Give it a name and select the `emoji:write` permission
-5. Copy the token (you won't be able to see it again)
+4. Copy the token (you won't be able to see it again)
+
+For more details, see the official documentation on [how to generate a personal access token](https://developers.mattermost.com/integrate/reference/personal-access-token/).
 
 ## Supported Image Formats
 
